@@ -1,0 +1,42 @@
+.content {
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: "Lora", serif;
+}
+
+.outer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.editor-wrapper {
+  flex-grow: 0.3;
+  height: max-content;
+  text-align: center;
+}
+
+.editor {
+  /* flex-grow: 0.3; */
+  /* height: 100%; */
+  min-height: 200px;
+  width: 100%;
+  resize: none;
+  outline: cadetblue;
+  font-family: "Fira Code", monospace;
+  font-size: 1.5rem;
+  tab-size: 4;
+}
+
+.second {
+  width: 100%;
+  height: 50vh;
+}
+
+.output {
+  width: 98%;
+  border-radius: 20px;
+}
